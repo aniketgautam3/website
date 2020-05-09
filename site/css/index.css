@@ -1,0 +1,120 @@
+/* CSS Reset */
+*{
+    margin: 0;
+    padding :0;
+    font-family: 'Lobster', cursive;
+}
+
+/* Navigation bar styling */
+#navbar{
+    display: flex;
+    flex-direction: column;
+
+}
+
+#logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+        
+}
+#logo img{
+    height: 111px;
+    width: 342px;
+    margin: 20px;
+    padding: 30px;
+}
+    
+#navigation{
+    background-color: blue;
+    border-radius: 30px;
+}
+#navigation ul{
+    display : flex;
+    justify-content: center;
+    align-items: center;
+}
+#navigation ul a{
+    text-decoration: none;
+    padding: 10px;
+    margin: 20px;
+    font-size: 1.5rem;
+    color: white ;
+    border-radius: 10px;
+}
+#navigation ul a:hover{
+    background: grey;
+    color: chocolate;
+}
+#navigation ul li{
+   list-style: none;
+}
+
+.container{
+    display: flex;
+    
+}
+
+.item{
+    display : block;
+    width: 325px;
+    height: 228px;
+    border: 2px solid red;
+    border-radius: 15px;
+    background-color:#f9f6e4;
+    margin: auto;
+    padding: 10px;
+}
+
+.item img{
+    width: 175px;
+    display: block;
+    margin: auto;
+    border-radius: 100px;
+}
+
+.h-primary{
+    text-align: center;
+    padding: 20px;
+    margin: 10px;
+    color: darkkhaki;
+}
+.h-secondary{
+    text-align: center;
+}
+
+.item p{
+    text-align: center;
+}
+
+#tenant{
+    padding: 10px;
+    margin: 30px;
+    font-size: 2rem;
+    color: darkkhaki;
+    background-color: lightgrey;
+    border-radius: 30px;
+}
+
+
+#our_tenants{
+    display: flex;
+}
+.canara img{
+    height: 136px;
+    width: 296px;
+    border: 2px solid red;
+    margin: 10px;
+    border-radius: 30px;
+}
+
+.sbi{
+    display: block;
+    margin: auto;
+}
+
+#copyright{
+    background-color: grey;
+    font-size: 1rem;
+    text-align: center;
+}

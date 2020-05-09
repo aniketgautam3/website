@@ -1,0 +1,145 @@
+* {
+    margin: 0;
+    border: 0;
+}
+
+body {
+    padding: 10px;
+    margin: 10px;
+}
+
+header {
+    background-color: #263238;
+    background-image: url("http://intro-webdesign.com/CSS/assignment-2/images/flywheel.jpg");
+    background-size: cover;
+    /* Resize background image to cover entire container */
+    padding: 10px 40px 35px 40px;
+    /*Top Right Bottom Left*/
+}
+
+h1 {
+    text-align: center;
+    color: #ffffff;
+    text-transform: uppercase;
+    font-size: 110%;
+}
+
+h2 {
+    color: #000000;
+}
+
+nav a {
+    color: #000000;
+    font-size: 90%;
+    text-decoration: none;
+    background-color: rgba(255, 255, 255, 0.5);
+    display: inline-block;
+    border-radius: 5px;
+    padding: 14px 50px 14px 50px;
+    margin: 0px 50px 0px 50px;
+}
+
+.active {
+    background-color: #ffffff;
+}
+
+.left {
+    width: 20%;
+    height: 550px;
+    display: inline-block;
+    float: left;
+    background: #827717;
+}
+
+.right {
+    width: 66%;
+    display: inline-block;
+    float: right;
+    margin-right: 13.5%;
+}
+
+aside img {
+    display: block;
+    border: 2px solid #000000;
+    width: 75%;
+    margin: 30px 0px;
+    /*Top Right Bottom Left*/
+    margin-left: auto;
+    /*centered horizontally*/
+    margin-right: auto;
+    /*centered horizontally*/
+}
+
+table {
+    border: 0;
+    color: #949292;
+    line-height: 25px;
+    font-family: Arial, "Times New Roman";
+    background: rgba(226, 255, 189, 0.8);
+    margin: 0 auto;
+    width: 85%;
+    border-collapse: collapse;
+    text-align: center;
+    -moz-border-radius: 20px 20px 0 0;
+    /*table border radius*/
+    -webkit-border-radius: 20px 20px 0 0;
+    -o-border-radius: 20px 20px 0 0;
+    border-radius: 20px 20px 0 0;
+}
+
+table td {
+    font-size: smaller;
+    border: solid 3px #ffffff;
+    text-shadow: 2px 2px 10px #cccecf;
+    padding: 5px 20px;
+    -moz-border-radius: 2px;
+    /*background border radius*/
+    -webkit-border-radius: 2px;
+    -o-border-radius: 2px;
+    border-radius: 2px;
+}
+
+table tr th {
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 110%;
+    padding: 5px 20px;
+    background: #aaad07;
+    background: -moz-linear-gradient(top, #c8cc04 7%, #aaad07 100%);
+    /*gradient*/
+    background: -webkit-linear-gradient(#c8cc04 7%, #aaad07 100%);
+    background: -o-linear-gradient(#c8cc04 7%, #aaad07 100%);
+    background: linear-gradient(#c8cc04 7%, #aaad07 100%);
+    border: solid 3px #ffffff;
+    border-bottom: solid 3px #95ff8a;
+    /*bright green bottom-border*/
+}
+
+table tr th:first-child {
+    /*border radius top-right corner*/
+    text-align: left;
+    -moz-border-radius: 15px 0 0 0;
+    -webkit-border-radius: 15px 0 0 0;
+    -o-border-radius: 15px 0 0 0;
+    border-radius: 15px 0 0 0;
+}
+
+table tr th:last-child {
+    /*border radius top-left corner*/
+    text-align: left;
+    /*align to the left */
+    -moz-border-radius: 0 15px 0 0;
+    -webkit-border-radius: 0 15px 0 0;
+    -o-border-radius: 0 15px 0 0;
+    border-radius: 0 15px 0 0;
+}
+
+table tr td:first-child {
+    /*align to the left */
+    text-align: left;
+}
+
+table tr:hover {
+    /*solid when hover */
+    background: rgba(204, 206, 207, 1);
+}

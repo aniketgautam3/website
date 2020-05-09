@@ -1,0 +1,18 @@
+
+#navigation ul li a{
+    font-size: .7rem;
+    margin: 3px;
+    padding: 3px;
+}
+
+#logo img{
+    height: 111px;
+    width: 275px;
+    margin: 20px;
+    padding: 10px;
+    margin-left: 38px;
+}
+.item{
+    width: 300px;
+    height: 249px;
+}

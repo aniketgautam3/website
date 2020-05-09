@@ -1,0 +1,28 @@
+
+.container{
+    flex-direction: column;
+}
+.sbi img{
+    height: 69px;
+    width: 87px;
+}
+
+#navigation ul li a{
+    font-size: 1rem;
+    margin: 3px;
+    padding 3px;
+}
+
+.item{
+    padding: 5px;
+    height: 228px;
+    margin: 10px auto;
+    width: 330px;
+}
+.logo img{
+    height: 111px;
+    width: 342px;
+    margin-top: 29px;
+    padding: 0px;
+    margin-bottom: 29px;
+}
